@@ -67,15 +67,19 @@ docker exec -it {challengeX_ctf} bash
   ```bash
 cat /etc/passwd
 ```
-3. Explora los directorios personales en /home/. Revisa archivos ocultos con:
-  ```bash
-ls -la /home/<usuario>
-```
-4. Busca archivos que parezcan interesantes, como
+3. Busca archivos que parezcan interesantes, como
   ```bash
  .flag.txt, .hidden, .instrucciones,o incluso archivos con permisos inusuales.
 ```
-
+4. Puedes explorar la carpeta etc en busqueda de archivos sospechosos como:
+```bash
+cat /etc/hidden_config.txt 
+cat /etc/motd
+```
+5. Explora los directorios personales en /home/. Revisa archivos ocultos con:
+  ```bash
+ls -la /home/<usuario>
+```
 
 ## 👥 Contribuciones
 Si deseas contribuir al proyecto, por favor sigue los siguientes pasos:
