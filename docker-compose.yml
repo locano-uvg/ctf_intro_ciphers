@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   challenge1:
     image: ludwing238/intro_ctf_challenge1
