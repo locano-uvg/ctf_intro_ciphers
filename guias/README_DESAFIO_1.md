@@ -1,5 +1,21 @@
 # Desafío 1: Logs y Configuración
 
+## 🚀 Acceso al Desafío
+
+Para acceder al contenedor Docker de este desafío, ejecuta el siguiente comando:
+
+```bash
+docker exec -it challenge1_ctf bash
+```
+
+Una vez dentro del contenedor, podrás comenzar a explorar el sistema y buscar las flags ocultas.
+
+## 📚 Documentación General
+
+Para más información sobre el proyecto, instalación y configuración, consulta el [README principal del repositorio](../../README.md).
+
+---
+
 ## 📝 Descripción
 Revisa archivos del sistema y logs para encontrar información oculta y flags. Aprende a navegar por directorios y descubrir secretos escondidos en archivos de configuración.
 

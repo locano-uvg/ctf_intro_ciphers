@@ -1,5 +1,21 @@
 # Desafío 2: Codificación Base64
 
+## 🚀 Acceso al Desafío
+
+Para acceder al contenedor Docker de este desafío, ejecuta el siguiente comando:
+
+```bash
+docker exec -it challenge2_ctf bash
+```
+
+Una vez dentro del contenedor, podrás comenzar a explorar el sistema y buscar las flags ocultas.
+
+## 📚 Documentación General
+
+Para más información sobre el proyecto, instalación y configuración, consulta el [README principal del repositorio](../../README.md).
+
+---
+
 ## 📝 Descripción
 Aprende a identificar y decodificar cadenas en formato Base64 para revelar información oculta. Domina una de las técnicas de codificación más utilizadas en CTF.
 

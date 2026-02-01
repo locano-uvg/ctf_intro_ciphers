@@ -1,5 +1,21 @@
 # Desafío 3: Cifrado César y ROT13
 
+## 🚀 Acceso al Desafío
+
+Para acceder al contenedor Docker de este desafío, ejecuta el siguiente comando:
+
+```bash
+docker exec -it challenge3_ctf bash
+```
+
+Una vez dentro del contenedor, podrás comenzar a explorar el sistema y buscar las flags ocultas.
+
+## 📚 Documentación General
+
+Para más información sobre el proyecto, instalación y configuración, consulta el [README principal del repositorio](../../README.md).
+
+---
+
 ## 📝 Descripción
 Aplica el cifrado César y ROT13 para descifrar mensajes encriptados y encontrar flags ocultas. Explora los métodos clásicos de criptografía utilizados desde la época romana.
 

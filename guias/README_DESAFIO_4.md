@@ -1,5 +1,21 @@
 # Desafío 4: Análisis de Frecuencia
 
+## 🚀 Acceso al Desafío
+
+Para acceder al contenedor Docker de este desafío, ejecuta el siguiente comando:
+
+```bash
+docker exec -it challenge4_ctf bash
+```
+
+Una vez dentro del contenedor, podrás comenzar a explorar el sistema y buscar las flags ocultas.
+
+## 📚 Documentación General
+
+Para más información sobre el proyecto, instalación y configuración, consulta el [README principal del repositorio](../../README.md).
+
+---
+
 ## 📝 Descripción
 Utiliza el análisis de frecuencia para descifrar mensajes encriptados y encontrar flags ocultas. Implementa técnicas de criptoanálisis basadas en patrones estadísticos del lenguaje.
 
