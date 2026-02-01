@@ -1,5 +1,9 @@
 # Desafío 3: Cifrado César y ROT13
 
+## 📚 Documentación General
+
+Para más información sobre el proyecto, instalación y configuración, consulta el [README principal del repositorio](https://github.com/locano-uvg/ctf_intro_ciphers).
+
 ## 🚀 Acceso al Desafío
 
 Para acceder al contenedor Docker de este desafío, ejecuta el siguiente comando:
@@ -9,10 +13,6 @@ docker exec -it challenge3_ctf bash
 ```
 
 Una vez dentro del contenedor, podrás comenzar a explorar el sistema y buscar las flags ocultas.
-
-## 📚 Documentación General
-
-Para más información sobre el proyecto, instalación y configuración, consulta el [README principal del repositorio](../../README.md).
 
 ---
 
