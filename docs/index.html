@@ -471,6 +471,11 @@
           font-size: 1.4rem;
         }
 
+        .challenge-button {
+          font-size: 0.8rem;
+          padding: 10px 24px;
+        }
+
         footer {
           padding: 2rem 1.5rem;
         }
@@ -525,6 +530,52 @@
         line-height: 1.75;
         font-weight: 400;
         font-family: var(--font-body);
+        margin-bottom: 1.5rem;
+      }
+
+      .challenge-button {
+        display: inline-block;
+        font-family: var(--font-heading);
+        font-weight: 700;
+        font-size: 0.9rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--charcoal);
+        background: transparent;
+        border: 2px solid var(--charcoal);
+        padding: 12px 28px;
+        text-decoration: none;
+        transition: all 0.3s var(--easing);
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+      }
+
+      .challenge-button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: var(--charcoal);
+        transition: left 0.3s var(--easing);
+        z-index: -1;
+      }
+
+      .challenge-button:hover {
+        color: white;
+        transform: translate(-2px, -2px);
+        box-shadow: 4px 4px 0 rgba(12, 44, 85, 0.3);
+      }
+
+      .challenge-button:hover::before {
+        left: 0;
+      }
+
+      .challenge-button:active {
+        transform: translate(0, 0);
+        box-shadow: 2px 2px 0 rgba(12, 44, 85, 0.2);
       }
 
       footer {
@@ -646,6 +697,7 @@
                   Revisa archivos del sistema y logs para encontrar información oculta
                   y flags. Aprende a navegar por directorios y descubrir secretos escondidos en archivos de configuración.
                 </p>
+                <a href="https://github.com/locano-uvg/ctf_intro_cifrados/blob/main/guias/README_DESAFIO_1.md" target="_blank" class="challenge-button">Desafío</a>
               </div>
             </div>
           </section>
@@ -663,6 +715,7 @@
                 <p>
                   Aprende a identificar y decodificar cadenas en formato Base64 para revelar información oculta. Domina una de las técnicas de codificación más utilizadas en CTF.
                 </p>
+                <a href="https://github.com/locano-uvg/ctf_intro_cifrados/blob/main/guias/README_DESAFIO_2.md" target="_blank" class="challenge-button">Desafío</a>
               </div>
             </div>
           </section>
@@ -681,6 +734,7 @@
                   Aplica el cifrado César y ROT13 para descifrar mensajes encriptados y
                   encontrar flags ocultas. Explora los métodos clásicos de criptografía utilizados desde la época romana.
                 </p>
+                <a href="https://github.com/locano-uvg/ctf_intro_cifrados/blob/main/guias/README_DESAFIO_3.md" target="_blank" class="challenge-button">Desafío</a>
               </div>
             </div>
           </section>
@@ -699,6 +753,7 @@
                   Utiliza el análisis de frecuencia para descifrar mensajes encriptados
                   y encontrar flags ocultas. Implementa técnicas de criptoanálisis basadas en patrones estadísticos del lenguaje.
                 </p>
+                <a href="https://github.com/locano-uvg/ctf_intro_cifrados/blob/main/guias/README_DESAFIO_4.md" target="_blank" class="challenge-button">Desafío</a>
               </div>
             </div>
           </section>
